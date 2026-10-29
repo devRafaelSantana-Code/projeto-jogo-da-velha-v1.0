@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+      <title>Jogo da Velha - v1.0</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Jogo da Velha</h1>
+
+         <div class="status-panel">
+            Vez do Jogador: <span id="current-turn">-</span>
+         </div>
+
+         <main
+            class="stage"
+            role="grid"
+            aria-label="Tabuleiro do Jogo da Velha"
+         >
+            <button id="0" class="square b r" aria-label="Quadrante 1"></button>
+            <button id="1" class="square b r" aria-label="Quadrante 2"></button>
+            <button id="2" class="square b" aria-label="Quadrante 3"></button>
+
+            <button id="3" class="square b r" aria-label="Quadrante 4"></button>
+            <button id="4" class="square b r" aria-label="Quadrante 5"></button>
+            <button id="5" class="square b" aria-label="Quadrante 6"></button>
+
+            <button id="6" class="square r" aria-label="Quadrante 7"></button>
+            <button id="7" class="square r" aria-label="Quadrante 8"></button>
+            <button id="8" class="square" aria-label="Quadrante 9"></button>
+         </main>
+
+         <button id="btn-reset" class="control-button">Reiniciar Jogo</button>
+      </div>
+
+      <footer>Criado por Dev. Rafael Santana</footer>
+
+      <script src="./scripts/game.js"></script>
+      <script src="./scripts/interface.js"></script>
+   </body>
+</html>

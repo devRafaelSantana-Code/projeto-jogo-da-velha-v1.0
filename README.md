@@ -15,9 +15,21 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (_Vanilla JavaScript_), o projeto
 
 A aplicação também explora a separação entre a lógica do jogo e a interface, facilitando a organização do código, a manutenção e a compreensão das regras de negócio.
 
-O projeto foi desenvolvido como parte dos estudos práticos de programação e lógica de desenvolvimento web, com foco na manipulação do DOM, no tratamento de eventos e na construção de interfaces interativas.
+Desenvolvido como parte dos estudos práticos de programação e lógica de desenvolvimento web, o projeto tem como foco a manipulação do DOM, o tratamento de eventos e a construção de interfaces interativas.
 
-## 🚀 Funcionalidades
+## 🚀 Visualização do Projeto
+
+Acesse a versão publicada na Vercel e experimente o jogo diretamente pelo navegador.
+
+<p align="center">
+  <a href="https://projeto-jogo-da-velha-v10.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar_Projeto_Online-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Acessar projeto online na Vercel">
+  </a>
+</p>
+
+**Link direto:** https://projeto-jogo-da-velha-v10.vercel.app/
+
+## ✨ Funcionalidades
 
 - 🎮 **Partidas interativas:** realização de jogadas diretamente no tabuleiro.
 - 🔄 **Alternância de turnos:** gerenciamento automático dos símbolos dos jogadores.
@@ -27,7 +39,7 @@ O projeto foi desenvolvido como parte dos estudos práticos de programação e l
 - 🚫 **Controle de jogadas:** prevenção de jogadas em posições ocupadas e após o encerramento da partida.
 - ✨ **Interface moderna:** design com efeitos de transparência, desfoque e animações.
 - ⌨️ **Interação por teclado:** utilização de elementos nativos de botão para facilitar a navegação e a ativação das células.
-- 📱 **Experiência responsiva:** interface adaptável a diferentes tamanhos de tela, conforme a configuração do CSS.
+- 📱 **Experiência responsiva:** interface adaptável a diferentes tamanhos de tela, conforme a implementação do CSS.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -90,7 +102,7 @@ A organização em módulos permite separar as regras de negócio das operaçõe
 
 ## ♿ Acessibilidade e Interação
 
-A interface utiliza elementos HTML nativos, como `button`, para representar as células do tabuleiro. Essa escolha permite aproveitar os comportamentos de navegação por teclado e ativação disponibilizados pelos navegadores.
+A interface utiliza elementos HTML nativos, como `button`, para representar as células do tabuleiro. Essa escolha permite aproveitar os recursos de navegação por teclado e ativação disponibilizados pelos navegadores.
 
 O uso de elementos semânticos também contribui para a compatibilidade com tecnologias assistivas. A experiência final depende da implementação dos atributos acessíveis e dos demais recursos presentes na interface.
 

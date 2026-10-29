@@ -25,7 +25,7 @@ function handleClick(event) {
       if (gameOver) {
          setTimeout(() => {
             if (gameOver === "draw") {
-               alert("Deu Velha! O jogo terminou em empate técnico.");
+               alert("Deu Velha! O jogo terminou em empate.");
             } else {
                const winnerEmoji = symbols[playerTime] === "o" ? "😋" : "👻";
                alert(`Fim de jogo! O vencedor foi o jogador ${winnerEmoji}.`);
